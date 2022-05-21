@@ -1,26 +1,31 @@
-export const SocialProfile = p => {
-  // console.log(p);
+export const Profile = p => {
+  const {
+    username,
+    tag,
+    location,
+    stats: { followers, views, likes },
+  } = p;
   return (
     <div className="profile">
       <div className="description">
         <img src={p.avatar} alt="User avatar" className="avatar" />
-        <p className="name">{p.username}</p>
-        <p className="tag">@{p.tag}</p>
-        <p className="location">{p.location}</p>
+        <p className="name">{username}</p>
+        <p className="tag">@{tag}</p>
+        <p className="location">{location}</p>
       </div>
 
       <ul className="stats">
         <li>
           <span className="label">Followers</span>
-          <span className="quantity">{p.stats.followers}</span>
+          <span className="quantity">{followers}</span>
         </li>
         <li>
           <span className="label">Views</span>
-          <span className="quantity">{p.stats.views}</span>
+          <span className="quantity">{views}</span>
         </li>
         <li>
           <span className="label">Likes</span>
-          <span className="quantity">3{p.stats.likes}</span>
+          <span className="quantity">3{likes}</span>
         </li>
       </ul>
     </div>
