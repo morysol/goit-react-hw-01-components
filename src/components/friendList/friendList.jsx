@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import PropTypes from 'prop-types';
 
 export const FriendList = ({ friends }) => {
@@ -18,7 +18,7 @@ export const FriendList = ({ friends }) => {
 
 FriendList.propTypes = {
   friends: PropTypes.arrayOf(
-    PropTypes.objectOf(
+    PropTypes.shape(
       PropTypes.string.isRequired,
       PropTypes.string.isRequired,
       PropTypes.bool.isRequired,

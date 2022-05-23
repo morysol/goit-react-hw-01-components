@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import PropTypes from 'prop-types';
 
 export const TransactionHistory = ({ items }) => {
@@ -25,7 +25,7 @@ export const TransactionHistory = ({ items }) => {
 
 TransactionHistory.propTypes = {
   friends: PropTypes.arrayOf(
-    PropTypes.objectOf(
+    PropTypes.shape(
       PropTypes.string.isRequired,
       PropTypes.string.isRequired,
       PropTypes.number.isRequired,

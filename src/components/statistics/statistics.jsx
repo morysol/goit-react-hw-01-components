@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import PropTypes from 'prop-types';
 
 export const Statistics = ({ title, stats }) => {
@@ -20,7 +20,7 @@ export const Statistics = ({ title, stats }) => {
 Statistics.propTypes = {
   title: PropTypes.string,
   stats: PropTypes.arrayOf(
-    PropTypes.objectOf(
+    PropTypes.shape(
       PropTypes.string.isRequired,
       PropTypes.string.isRequired,
       PropTypes.number.isRequired

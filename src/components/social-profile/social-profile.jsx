@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 
 import PropTypes from 'prop-types';
 
@@ -41,7 +41,7 @@ Profile.propTypes = {
   tag: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
   avatar: PropTypes.string.isRequired,
-  stats: PropTypes.objectOf(
+  stats: PropTypes.shape(
     PropTypes.number.isRequired,
     PropTypes.number.isRequired,
     PropTypes.number.isRequired
