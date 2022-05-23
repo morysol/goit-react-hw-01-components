@@ -1,14 +1,18 @@
-export const Profile = p => {
-  const {
-    username,
-    tag,
-    location,
-    stats: { followers, views, likes },
-  } = p;
+import React from 'react';
+
+import PropTypes from 'prop-types';
+
+export const Profile = ({
+  username,
+  tag,
+  location,
+  avatar,
+  stats: { followers, views, likes },
+}) => {
   return (
     <div className="profile">
       <div className="description">
-        <img src={p.avatar} alt="User avatar" className="avatar" />
+        <img src={avatar} alt={avatar} className="avatar" />
         <p className="name">{username}</p>
         <p className="tag">@{tag}</p>
         <p className="location">{location}</p>
@@ -25,9 +29,21 @@ export const Profile = p => {
         </li>
         <li>
           <span className="label">Likes</span>
-          <span className="quantity">3{likes}</span>
+          <span className="quantity">{likes}</span>
         </li>
       </ul>
     </div>
   );
+};
+
+Profile.propTypes = {
+  username: PropTypes.string.isRequired,
+  tag: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
+  avatar: PropTypes.string.isRequired,
+  stats: PropTypes.objectOf(
+    PropTypes.number.isRequired,
+    PropTypes.number.isRequired,
+    PropTypes.number.isRequired
+  ),
 };

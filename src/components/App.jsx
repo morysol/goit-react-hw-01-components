@@ -1,8 +1,16 @@
+import React from 'react';
+
 import user from './social-profile/user.json';
-import { Profile } from 'components/social-profile/social-profile.jsx';
+import { Profile } from './social-profile/social-profile';
 
 import { Statistics } from './statistics/statistics';
 import data from './statistics/data.json';
+
+import { FriendList } from './friendList/friendList';
+import friendsList from './friendList/friends.json';
+
+import { TransactionHistory } from './transactionHistory/transactionHistory';
+import transactions from './transactionHistory/transactions.json';
 
 export const App = () => {
   return (
@@ -26,6 +34,8 @@ export const App = () => {
       />
       <Statistics title="Upload stats" stats={data} />
       <Statistics stats={data} />
+      <FriendList friends={friendsList} />
+      <TransactionHistory items={transactions} />
     </div>
   );
 };
