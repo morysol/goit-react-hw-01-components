@@ -13,7 +13,7 @@ export const Profile = ({
   return (
     <div className="Profile">
       <div className="Profile__description">
-        <img src={avatar} alt={avatar} className="avatar" />
+        <img src={avatar} alt={avatar} className="Profile__avatar" />
         <p className="Profile__name">{username}</p>
         <p className="Profile__tag">@{tag}</p>
         <p className="Profile__location">{location}</p>
