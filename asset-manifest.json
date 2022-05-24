@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/%20//morysol.github.io/goit-react-hw-01-components/static/css/main.75c83fa1.css",
-    "main.js": "/%20//morysol.github.io/goit-react-hw-01-components/static/js/main.2154a473.js",
-    "index.html": "/%20//morysol.github.io/goit-react-hw-01-components/index.html",
-    "main.75c83fa1.css.map": "/%20//morysol.github.io/goit-react-hw-01-components/static/css/main.75c83fa1.css.map",
-    "main.2154a473.js.map": "/%20//morysol.github.io/goit-react-hw-01-components/static/js/main.2154a473.js.map"
+    "main.css": "/goit-react-hw-01-components/static/css/main.75c83fa1.css",
+    "main.js": "/goit-react-hw-01-components/static/js/main.2154a473.js",
+    "index.html": "/goit-react-hw-01-components/index.html",
+    "main.75c83fa1.css.map": "/goit-react-hw-01-components/static/css/main.75c83fa1.css.map",
+    "main.2154a473.js.map": "/goit-react-hw-01-components/static/js/main.2154a473.js.map"
   },
   "entrypoints": [
     "static/css/main.75c83fa1.css",
