@@ -1,0 +1,27 @@
+.FriendList {
+  width: 480px;
+  margin: 50px auto;
+}
+
+.FriendList__stats {
+  padding: 10px;
+}
+
+.FriendList__item {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 100%;
+  background-color: #eee;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+.FriendList__item:not(:first-child) {
+  margin-top: 10px;
+}
+.FriendList__avatar {
+  margin-left: 50px;
+}
+.FriendList__name {
+  margin-left: 20px;
+}

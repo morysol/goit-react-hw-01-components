@@ -1,0 +1,21 @@
+.TransactionHistory {
+  width: 640px;
+  margin: 50px auto;
+}
+
+.TransactionHistory__header {
+  background-color: aqua;
+}
+
+th,
+td {
+  padding: 24px;
+}
+
+.TransactionHistory__item {
+  background-color: beige;
+}
+
+.TransactionHistory__item:nth-child(even) {
+  background-color: darkseagreen;
+}

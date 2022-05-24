@@ -1,22 +1,22 @@
 import React from 'react';
 
-import user from './social-profile/user.json';
-import { Profile } from './social-profile/social-profile';
+import user from './SocialProfile/user.json';
+import { Profile } from './SocialProfile/SocialProfile';
 
-import { Statistics } from './statistics/statistics';
-import data from './statistics/data.json';
+import { Statistics } from './Statistics/Statistics';
+import data from './Statistics/data.json';
 
-import { FriendList } from './friendList/friendList';
-import friendsList from './friendList/friends.json';
+import { FriendList } from './FriendList/FriendList';
+import friendsList from './FriendList/Friends.json';
 
-import { TransactionHistory } from './transactionHistory/transactionHistory';
-import transactions from './transactionHistory/transactions.json';
+import { TransactionHistory } from './TransactionHistory/TransactionHistory';
+import transactions from './TransactionHistory/Transactions.json';
 
 export const App = () => {
   return (
     <div
       style={{
-        height: '100vh',
+        // height: '100vh',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
