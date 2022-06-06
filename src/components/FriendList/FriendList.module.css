@@ -1,13 +1,13 @@
-.FriendList {
+.list {
   width: 480px;
   margin: 50px auto;
 }
 
-.FriendList__stats {
+.stats {
   padding: 10px;
 }
 
-.FriendList__item {
+.item {
   display: flex;
   align-items: center;
   justify-content: left;
@@ -16,12 +16,12 @@
   border-radius: 10px;
   padding-left: 10px;
 }
-.FriendList__item:not(:first-child) {
+.item:not(:first-child) {
   margin-top: 10px;
 }
-.FriendList__avatar {
+.avatar {
   margin-left: 50px;
 }
-.FriendList__name {
+.name {
   margin-left: 20px;
 }

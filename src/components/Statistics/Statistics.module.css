@@ -1,9 +1,9 @@
-.Statistics {
+.statistics {
   width: 480px;
   margin: 50px auto;
 }
 
-.Statistics__title {
+.title {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,7 +11,7 @@
   font-size: 2em;
 }
 
-.Statistics__stat-list {
+.list {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,7 +21,7 @@
   padding: 0;
 }
 
-.Statistics__stat-list .item {
+.list .item {
   display: flex;
   flex-direction: column;
   /* flex-basis: calc(480px / 5); */

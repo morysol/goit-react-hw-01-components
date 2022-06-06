@@ -1,11 +1,11 @@
-.Profile {
+.profile {
   width: 480px;
 
   background-color: #ddd;
   border-radius: 15px;
   padding: 15px;
 }
-.Profile__description {
+.description {
   display: flex;
   flex-direction: column;
   background-color: #fff;
@@ -13,12 +13,12 @@
   /* padding: 40px; */
 }
 
-.Profile__description p {
+.description p {
   margin: 50px auto;
   margin-top: 20px;
 }
 
-.Profile__avatar {
+.avatar {
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -26,11 +26,11 @@
   border: solid 1px red;
   background-color: aqua;
 }
-.Profile__name {
+.name {
   font-size: 2em;
 }
 
-.Profile__stats {
+.stats {
   display: flex;
   flex-direction: row;
   margin: 0px;
@@ -40,7 +40,7 @@
   background-color: #eee;
 }
 
-.Profile__stats li {
+.stats li {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -56,11 +56,12 @@
   margin-top: 8px;
 }
 
-/*
+/* .tag{} */
+/* .location{} */
 
-.tag{}
-.location{}
-
-
-.label{}
-.quantity{} */
+.label {
+  margin-right: 20px;
+}
+.quantity {
+  color: darkblue;
+}

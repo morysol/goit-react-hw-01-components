@@ -1,9 +1,9 @@
-.TransactionHistory {
+.transactionHistory {
   width: 640px;
   margin: 50px auto;
 }
 
-.TransactionHistory__header {
+.header {
   background-color: aqua;
 }
 
@@ -12,10 +12,10 @@ td {
   padding: 24px;
 }
 
-.TransactionHistory__item {
+.item {
   background-color: beige;
 }
 
-.TransactionHistory__item:nth-child(even) {
+.item:nth-child(even) {
   background-color: darkseagreen;
 }
