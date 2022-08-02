@@ -1,0 +1,26 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 100%;
+  background-color: #eee;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+.item:not(:first-child) {
+  margin-top: 10px;
+}
+.avatar {
+  margin-left: 50px;
+}
+.name {
+  margin-left: 20px;
+}
+
+.statusred {
+  color: red;
+}
+
+.statusgreen {
+  color: green;
+}
