@@ -25,3 +25,11 @@
 .name {
   margin-left: 20px;
 }
+
+.statusred {
+  color: red;
+}
+
+.statusgreen {
+  color: green;
+}
