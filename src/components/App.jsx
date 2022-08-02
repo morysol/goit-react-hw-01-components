@@ -12,18 +12,21 @@ import friends from './FriendList/Friends.json';
 import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 import transactions from './TransactionHistory/Transactions.json';
 
+import s from './default/App.module.css';
+
 export const App = () => {
   return (
     <div
-      style={{
-        // height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 24,
-        color: '#010101',
-        flexDirection: 'column',
-      }}
+      className={s.defaultapp}
+      // style={{
+      //   // height: '100vh',
+      //   display: 'flex',
+      //   justifyContent: 'center',
+      //   alignItems: 'center',
+      //   fontSize: 24,
+      //   color: '#010101',
+      //   flexDirection: 'column',
+      // }}
     >
       <Profile
         username={user.username}

@@ -7,12 +7,7 @@ export const FriendList = ({ friends }) => {
     <ul className={s.stats}>
       {friends.map(elem => (
         <li className={s.item} key={elem.id}>
-          <span
-            // className="FriendList__status"
-            // style={elem.isOnline ? { color: 'green' } : { color: 'red' }}
-            // className={elem.isOnline ? s.green : s.red}
-            className={elem.isOnline ? s.statusgreen : s.statusred}
-          >
+          <span className={elem.isOnline ? s.statusgreen : s.statusred}>
             &#9679;
           </span>
           <img
