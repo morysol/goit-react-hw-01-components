@@ -14,6 +14,8 @@ import transactions from './TransactionHistory/Transactions.json';
 
 import s from './default/App.module.css';
 
+// ------
+
 export const App = () => {
   return (
     <div
