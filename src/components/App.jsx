@@ -14,8 +14,6 @@ import transactions from './TransactionHistory/Transactions.json';
 
 import s from './default/App.module.css';
 
-// ------++++++++++
-
 export const App = () => {
   return (
     <div
@@ -41,7 +39,7 @@ export const App = () => {
       <Statistics stats={data} />
       <FriendList friends={friends} />
       <TransactionHistory items={transactions} />
-      <p>test only paragraph</p>
+      {/* <p>test only paragraph</p> */}
     </div>
   );
 };
