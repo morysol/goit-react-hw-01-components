@@ -16,18 +16,7 @@ import s from './default/App.module.css';
 
 export const App = () => {
   return (
-    <div
-      className={s.defaultapp}
-      // style={{
-      //   // height: '100vh',
-      //   display: 'flex',
-      //   justifyContent: 'center',
-      //   alignItems: 'center',
-      //   fontSize: 24,
-      //   color: '#010101',
-      //   flexDirection: 'column',
-      // }}
-    >
+    <div className={s.defaultapp}>
       <Profile
         username={user.username}
         tag={user.tag}
@@ -39,7 +28,6 @@ export const App = () => {
       <Statistics stats={data} />
       <FriendList friends={friends} />
       <TransactionHistory items={transactions} />
-      {/* <p>test only paragraph</p> */}
     </div>
   );
 };
